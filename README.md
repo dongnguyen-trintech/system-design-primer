@@ -68,6 +68,10 @@ Content that needs some polishing is placed [under development](#under-developme
 
 Review the [Contributing Guidelines](CONTRIBUTING.md).
 
+### Translations
+
+Interested in **translating**?  Please see the following [ticket](https://github.com/donnemartin/system-design-primer/issues/28).
+
 ## Index of system design topics
 
 > Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
@@ -943,7 +947,7 @@ A key-value store generally allows for O(1) reads and writes and is often backed
 
 Key-value stores provide high performance and are often used for simple data models or for rapidly-changing data, such as an in-memory cache layer.  Since they offer only a limited set of operations, complexity is shifted to the application layer if additional operations are needed.
 
-A key-value store is the basis for more complex system systems such as a document store, and in some cases, a graph database.
+A key-value store is the basis for more complex systems such as a document store, and in some cases, a graph database.
 
 ##### Source(s) and further reading: key-value store
 
